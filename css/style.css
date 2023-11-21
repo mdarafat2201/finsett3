@@ -52,3 +52,34 @@ body {
   color: var(--WhteColor);
 }
 /* ====================== navbar part css end ================= */
+/* ====================== benner part css start ================= */
+#benner_part {
+  padding: 100px 0;
+  background-color: var(--HeaderFooter);
+}
+#benner_part .benner_left h1 {
+  color: var(--WhteColor, #fff);
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 74px;
+}
+#benner_part .benner_left p {
+  color: var(--WhteColor, #fff);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28px;
+  opacity: 0.7;
+}
+#benner_part .benner_left .coustom_but {
+  padding: 16px 48px;
+  border-radius: 41px;
+  background: #fcd980;
+  color: var(--PrimaryColor, #282938);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+}
+#benner_part .benner_imgs {
+  margin-left: 80px;
+}
+/* ====================== benner part css end ================= */

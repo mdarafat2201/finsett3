@@ -83,3 +83,47 @@ body {
   margin-left: 80px;
 }
 /* ====================== benner part css end ================= */
+/* ====================== logo part css start ================= */
+#logo_part {
+  padding: 100px 0;
+}
+#logo_part .text_logo h3 {
+  color: var(--PrimaryColor, #282938);
+  font-size: 38px;
+  font-weight: 600;
+}
+#logo_part .text_logo p {
+  color: var(--PrimaryColor, #282938);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* ====================== logo part css end ================= */
+/* ====================== working part css start ================= */
+#working_part .header_part h2 {
+  color: var(--PrimaryColor, #282938);
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+}
+#working_part .working_contaent {
+  background-color: var(--BannerColor);
+}
+#working_part .working_contaent .icon {
+  padding: 50px 31px 48px 48px;
+}
+#working_part .working_contaent .icon h3 {
+  color: var(--PrimaryColor, #282938);
+  font-size: 24px;
+  font-weight: 500;
+}
+#working_part .working_contaent .icon p {
+  color: var(--PrimaryColor, #282938);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+}
+/* ====================== working part css end ================= */
+/* ====================== working part css end ================= */
+/* ====================== working part css end ================= */

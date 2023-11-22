@@ -154,6 +154,7 @@ body {
 /* ====================== revision part css end ================= */
 #revision_part {
   padding: 100px 0;
+  background-color: var(--BannerColor);
 }
 #revision_part .revision_right h5 {
   color: var(--PrimaryColor);
@@ -177,3 +178,29 @@ body {
   margin-right: 81px;
 }
 /* ====================== revision part css end ================= */
+/* ====================== support part css start ================= */
+#support_part {
+  padding: 100px 0;
+}
+#support_part .support_left h5 {
+  color: var(--PrimaryColor);
+  font-size: 18px;
+  font-weight: 500;
+}
+#support_part .support_left h3 {
+  color: var(--PrimaryColor, #232536);
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 56px;
+}
+#support_part .support_left p {
+  color: var(--PrimaryColor, #232536);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.6;
+}
+#support_part .support_imgs {
+  margin-left: 80px;
+}
+/* ====================== support part css end ================= */

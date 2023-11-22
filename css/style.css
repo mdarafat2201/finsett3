@@ -231,3 +231,166 @@ body {
   margin-right: 80px;
 }
 /* ====================== delivery part css end ================= */
+/* =============  faq part css start =========== */
+#faq_part {
+  padding: 100px 0;
+}
+#faq_part .faq_left h3 {
+  color: var(--secondary_color, #282938);
+  font-family: var(--Poppins);
+  font-size: 41px;
+  font-weight: 600;
+  line-height: 56px;
+}
+#faq_part .faq_left a {
+  color: var(--icon-color, #2405f2);
+  font-family: var(--Poppins);
+  font-size: 18px;
+  font-weight: 500;
+}
+#faq_part .accordion_part .accordion_text_right span {
+  color: var(--icon-color, #2405f2);
+  font-family: var(--Poppins);
+  font-size: 24px;
+  font-weight: 500;
+  padding-right: 60px;
+}
+#faq_part .accordion_part .accordion_text_right {
+  color: var(--secondary_color, #282938);
+  font-family: var(--Poppins);
+  font-size: 24px;
+  font-weight: 500;
+}
+#faq_part .accordion_part .overlay_text {
+  color: var(--secondary_color, #282938);
+  font-family: var(--Poppins);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 32px;
+  padding: 0 14%;
+  opacity: 0.87;
+}
+/* =============  faq part css end =========== */
+/* =============  footer part css start =========== */
+#footer_part {
+  padding: 100px 0;
+  background: var(--HeaderFooter);
+}
+#footer_part .footer_left p {
+  color: var(--white_color, #fff);
+  font-family: var(--Poppins);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-top: 22px;
+  opacity: 0.8;
+}
+#footer_part .footer_left .footer_contact {
+  margin-top: 86px;
+  background-color: #fcd980;
+}
+#footer_part .footer_left .footer_contact .contact ul li .text_titel {
+  color: var(--secondary_color, #282938);
+  font-family: var(--Poppins);
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 22px;
+}
+#footer_part .footer_left .footer_contact .contact ul li .type_email {
+  color: var(--secondary_color, #282938);
+  font-family: var(--Poppins);
+  font-size: 16px;
+  font-weight: 400;
+}
+#footer_part .footer_right h2 {
+  color: var(--white_color, #fff);
+  font-family: var(--Poppins);
+  font-size: 48px;
+  font-weight: 600;
+}
+#footer_part .footer_right p {
+  color: var(--white_color, #f4f6fc);
+  font-family: var(--Poppins);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.8;
+}
+#footer_part .footer_right .icons {
+  margin-top: 40px;
+}
+#footer_part .footer_right .icons a {
+  margin-left: 10px;
+}
+#footer_part .footer_right .icons a [class="fa-brands fa-facebook"] {
+  width: 40px;
+  height: 40px;
+  background-color: #3d6d9c;
+  border-radius: 50%;
+  line-height: 40px;
+  text-align: center;
+  transition: all linear 0.3s;
+}
+#footer_part .footer_right .icons a [class="fa-brands fa-facebook"]:hover {
+  background: #807c00;
+  color: #fff;
+  transform: translateY(-30%);
+}
+#footer_part .footer_right .icons a [class="fa-brands fa-twitter"] {
+  width: 40px;
+  height: 40px;
+  background-color: #983333;
+  border-radius: 50%;
+  line-height: 40px;
+  text-align: center;
+  transition: all linear 0.3s;
+}
+#footer_part .footer_right .icons a [class="fa-brands fa-twitter"]:hover {
+  background: rgb(21, 0, 128);
+  color: #fff;
+  transform: translateY(-30%);
+}
+#footer_part .footer_right .icons a [class="fa-brands fa-instagram"] {
+  width: 40px;
+  height: 40px;
+  background-color: #4c9833;
+  border-radius: 50%;
+  line-height: 40px;
+  text-align: center;
+  transition: all linear 0.3s;
+}
+#footer_part .footer_right .icons a [class="fa-brands fa-instagram"]:hover {
+  background: rgb(96, 128, 0);
+  color: #fff;
+  transform: translateY(-30%);
+}
+#footer_part .footer_right .icons a [class="fa-brands fa-linkedin-in"] {
+  width: 40px;
+  height: 40px;
+  background-color: #603398;
+  border-radius: 50%;
+  line-height: 40px;
+  text-align: center;
+  transition: all linear 0.3s;
+}
+#footer_part .footer_right .icons a [class="fa-brands fa-linkedin-in"]:hover {
+  background: green;
+  color: #fff;
+  transform: translateY(-30%);
+}
+
+/* =============  footer part css end =========== */
+/* =============  footer nav part css start =========== */
+#footer_nav_part .naver_text {
+  color: var(--secondary_color, #282938);
+  font-family: var(--Poppins);
+  font-size: 16px;
+  font-weight: 500;
+}
+#footer_nav_part .custom_navbar li a {
+  color: var(--secondary_color, #282938);
+  font-family: var(--Poppins);
+  font-size: 16px;
+  font-weight: 500;
+}
+/* =============  footer nav part css end =========== */
